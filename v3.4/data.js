@@ -47,7 +47,7 @@ let mainData = [
     {id: 'languages-87654', name: 'Languages', imgPath: "assets/icons-fields/languages.svg", specific: false},
     {id: 'omikron-65432', name: 'Omikron', imgPath: "assets/icons-fields/omikron.svg", specific: false},
     {id: 'insikt-54321', name: 'Insikt', imgPath: "assets/icons-fields/insikt.svg", specific: false},
-    {id: 'Iron-00000',name: 'Iron', imgPath: "assets/icons-fields/airon.svg", insikt: false},
+    {id: 'iron-00000',name: 'Iron', imgPath: "assets/icons-fields/airon.svg", insikt: false},
     {id: 'rope_skipping-03000',name: 'Rope Skipping', imgPath: "assets/icons-fields/rope_skipping.svg", insikt: false},
     {id: 'mobility-00200',name: 'Mobility', imgPath: "assets/icons-fields/mobility.svg", insikt: false},
     {id: 'mobility_(ov)-00201',name: 'Mobility (Ov)', imgPath: "assets/icons-fields/mobility_(ov).svg", insikt: false, overlapping: true},
