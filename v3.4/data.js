@@ -14,7 +14,7 @@ let mainData = [
     {id: 'stem-99123',name: 'STEM', imgPath: "assets/icons-fields/stem.svg", specific: false},
     {id: 'bemms-46654', name: 'BEMMS', imgPath: "assets/icons-fields/bemms.svg", specific: false},
     {id: 'html_x_css-13243', name: 'HTML & CSS', imgPath: "assets/icons-fields/html_x_css.svg", isSelected: true},
-    {id: 'ux_design-11239', name: 'UX Design', imgPath: "assets/icons-fields/ux_design.svg"},
+    {id: 'ux_design-11239', name: 'Design', imgPath: "assets/icons-fields/ux_design.svg"},
     {id: 'seo-87714', name: 'SEO', imgPath: "assets/icons-fields/seo.svg"},
     {id: 'english-87654', name: 'English', imgPath: "assets/icons-fields/languages.svg", specific: false},
     {id: 'omikron-65432', name: 'Omikron', imgPath: "assets/icons-fields/omikron.svg", specific: false},
