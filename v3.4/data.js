@@ -6,7 +6,7 @@ let mainData = [
     {id: 'firebase-09943', name: 'Firebase', imgPath: "assets/icons-fields/firebase.svg", isSelected: true},
     {id: 'discrete_mathematics-99001', name: 'Discrete Mathematics', imgPath: "assets/icons-fields/discrete_mathematics.svg", isSelected: true},
     {id: 'java-22231', name: 'Java', imgPath: "assets/icons-fields/java.jpg", isSelected: true},
-    {id: 'maths-22231', name: 'Mathematics', imgPath: "assets/icons-fields/mathemaics.svg", isSelected: true},
+    {id: 'maths-22231', name: 'Mathematics', imgPath: "assets/icons-fields/mathematics.svg", isSelected: true},
     {id: 'databases-22231', name: 'Databases', imgPath: "assets/icons-fields/databases.svg", isSelected: true},
     {id: 'computing-22231', name: 'Computing', imgPath: "assets/icons-fields/computing.svg", isSelected: true},
     {id: 'ee-99123',name: 'Electromagentism (&E)', imgPath: "assets/icons-fields/stem.svg", specific: false},
