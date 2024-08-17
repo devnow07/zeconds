@@ -5,6 +5,7 @@ let mainData = [
     {id: 'javascript-23014', name: 'JavaScript', imgPath: "assets/icons-fields/javascript.svg", isSelected: true},
     {id: 'firebase-09943', name: 'Firebase', imgPath: "assets/icons-fields/firebase.svg", isSelected: true},
     {id: 'discrete_mathematics-99001', name: 'Discrete Mathematics', imgPath: "assets/icons-fields/discrete_mathematics.svg", isSelected: true},
+    {id: 'foundations-99001', name: 'Logic (&F)', imgPath: "assets/icons-fields/foundations.svg", isSelected: true},
     {id: 'java-22231', name: 'Java', imgPath: "assets/icons-fields/java.jpg", isSelected: true},
     {id: 'maths-22231', name: 'Mathematics', imgPath: "assets/icons-fields/mathematics.svg", isSelected: true},
     {id: 'databases-22231', name: 'Databases', imgPath: "assets/icons-fields/databases.svg", isSelected: true},
