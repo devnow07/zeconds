@@ -231,7 +231,7 @@ class App {
     // C o n t e n t   A r e a
 
     _dashboardEvents() {        
-        elDashboard.addEventListener('touchstart', (e) => {
+        elDashboard.addEventListener('mousedown', (e) => {
             console.log('Touch Start');
             
             if (e.touches.length > 1) return;
@@ -247,7 +247,7 @@ class App {
             }
         })
 
-        elDashboard.addEventListener('touchend', (e) => {
+        elDashboard.addEventListener('mouseup', (e) => {
             console.log('Touch End');
 
             if(e.changedTouches.length > 1) return;
@@ -351,7 +351,7 @@ class App {
     }
 
     _elRestartEvents() {
-        elRestart.addEventListener('touchend', (e) => {
+        elRestart.addEventListener('mouseup', (e) => {
             if(e.target.closest('button')) {
                 if(e.target.closest('button').classList[0] === 'yes') {
                     this.stopwatches.forEach(stp => stp.restart());
