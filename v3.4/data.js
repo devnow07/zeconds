@@ -1,24 +1,21 @@
 'use strict';
 
 let mainData = [
+    {id: 'foundations-99001', name: 'Logic (&F)', imgPath: "assets/icons-fields/foundations.svg", isSelected: true},
+    {id: 'discrete_mathematics-99001', name: 'Discrete Mathematics', imgPath: "assets/icons-fields/discrete_mathematics.svg", isSelected: true},
+    {id: 'maths-22231', name: 'Mathematics', imgPath: "assets/icons-fields/mathematics.svg", isSelected: true},
     {id: 'python-22014', name: 'Python', imgPath: "assets/icons-fields/python.svg", isSelected: true},
+    {id: 'java-22231', name: 'Java', imgPath: "assets/icons-fields/java.jpg", isSelected: true},
     {id: 'javascript-23014', name: 'JavaScript', imgPath: "assets/icons-fields/javascript.svg", isSelected: true},
     {id: 'firebase-09943', name: 'Firebase', imgPath: "assets/icons-fields/firebase.svg", isSelected: true},
-    {id: 'discrete_mathematics-99001', name: 'Discrete Mathematics', imgPath: "assets/icons-fields/discrete_mathematics.svg", isSelected: true},
-    {id: 'foundations-99001', name: 'Logic (&F)', imgPath: "assets/icons-fields/foundations.svg", isSelected: true},
-    {id: 'java-22231', name: 'Java', imgPath: "assets/icons-fields/java.jpg", isSelected: true},
-    {id: 'maths-22231', name: 'Mathematics', imgPath: "assets/icons-fields/mathematics.svg", isSelected: true},
-    {id: 'databases-22231', name: 'Databases', imgPath: "assets/icons-fields/databases.svg", isSelected: true},
+    {id: 'html_x_css-13243', name: 'HTML & CSS', imgPath: "assets/icons-fields/html_x_css.svg", isSelected: true},
     {id: 'computing-22231', name: 'Computing', imgPath: "assets/icons-fields/computing.svg", isSelected: true},
+    {id: 'databases-22231', name: 'Databases', imgPath: "assets/icons-fields/databases.svg", isSelected: true},
     {id: 'ee-99123',name: 'Electromagentism (&E)', imgPath: "assets/icons-fields/stem.svg", specific: false},
     {id: 'marketing-88231', name: 'Marketing', imgPath: "assets/icons-fields/marketing.svg", isSelected: true},
     {id: 'kapital-10000',name: 'Kapital', imgPath: "assets/icons-fields/sseus.svg", insikt: false},
     {id: 'bemms-46654', name: '∴Alpha∴', imgPath: "assets/icons-fields/bemms.svg", specific: false},
     {id: 'virtuell-00001',name: 'Virtuell', imgPath: "assets/icons-fields/virtuell.svg", insikt: false},
-    {id: 'common-99999', name: 'COMMON', imgPath: "assets/icons-fields/aeronautics.svg", isSelected: true},
-    {id: 'common-99998', name: 'COMMON #2', imgPath: "assets/icons-fields/aeronautics.svg", isSelected: true},
-    {id: 'hushall-00012',name: 'Hushåll', imgPath: "assets/icons-fields/hushall.svg", insikt: false},
-    {id: 'html_x_css-13243', name: 'HTML & CSS', imgPath: "assets/icons-fields/html_x_css.svg", isSelected: true},
     {id: 'ux_design-11239', name: 'Design', imgPath: "assets/icons-fields/ux_design.svg"},
     {id: 'seo-87714', name: 'SEO', imgPath: "assets/icons-fields/seo.svg"},
     {id: 'english-87654', name: 'English', imgPath: "assets/icons-fields/languages.svg", specific: false},
@@ -34,10 +31,15 @@ let mainData = [
     {id: 'free_reading-00112',name: 'Free Reading', imgPath: "assets/icons-fields/free_reading.svg", insikt: false},
     {id: 'decoded-63244',name: 'Decoded', imgPath: "assets/icons-fields/decoded.svg", insikt: false},
     {id: 'decoded_(ov)-09932', name: 'Decoded (Ov)', imgPath: "assets/icons-fields/decoded_(ov).svg", insikt: false, rank: 1, overlapping: true},
+    {id: 'ulp_(ov)-09222', name: 'ULP (Ov)', imgPath: "assets/icons-fields/ulp.png", insikt: false, overlapping: true},
+    {id: 'fortnite-13345', name: 'Fortnite', imgPath: "assets/icons-fields/fortnite.png", insikt: false, rank: 1},
+    {id: 'fortnite-13346', name: 'Fortnite Training', imgPath: "assets/icons-fields/fortnite-training.png", insikt: false, rank: 1},
+    {id: 'common-99999', name: 'COMMON', imgPath: "assets/icons-fields/generic-1.svg", isSelected: true},
+    {id: 'common-99998', name: 'COMMON #2', imgPath: "assets/icons-fields/generic-2.svg", isSelected: true},
+    
+    {id: 'hushall-00012',name: 'Hushåll', imgPath: "assets/icons-fields/hushall.svg", insikt: false},
     {id: 'lithium-19932', name: 'Lithium', imgPath: "assets/icons-fields/lithium.svg", insikt: false, rank: 1},
     {id: 'lithium_(ov)-29932', name: 'Lithium (Ov)', imgPath: "assets/icons-fields/lithium-(ov).svg", insikt: false, rank: 1, overlapping: true},
-    {id: 'ulp_(ov)-09222', name: 'ULP (Ov)', imgPath: "assets/icons-fields/ulp.png", insikt: false, overlapping: true},
-    {id: 'fortnite-13345', name: 'Fortnite', imgPath: "assets/icons-fields/fortnite.png", insikt: false, rank: 1}
 ]
 
 mainData = mainData.map((obj, index) => {
