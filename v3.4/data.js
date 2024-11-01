@@ -10,7 +10,7 @@ let mainData = [
     {id: 'firebase-09943', name: 'Firebase', imgPath: "assets/icons-fields/firebase.svg", isSelected: true},
     {id: 'html_x_css-13243', name: 'HTML & CSS', imgPath: "assets/icons-fields/html_x_css.svg", isSelected: true},
     {id: 'computing-22231', name: 'Computing', imgPath: "assets/icons-fields/computing.svg", isSelected: true},
-    {id: 'databases-22231', name: 'Databases', imgPath: "assets/icons-fields/databases.svg", isSelected: true},
+    {id: 'databases-22231', name: 'Relational Databases', imgPath: "assets/icons-fields/databases.svg", isSelected: true},
     {id: 'ee-99123',name: 'Electromagentism (&E)', imgPath: "assets/icons-fields/stem.svg", specific: false},
     {id: 'marketing-88231', name: 'Marketing', imgPath: "assets/icons-fields/marketing.svg", isSelected: true},
     {id: 'virtuell-00001',name: 'Virtuell', imgPath: "assets/icons-fields/virtuell.svg", insikt: false},
