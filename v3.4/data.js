@@ -32,8 +32,8 @@ let mainData = [
     {id: 'ulp_(ov)-09222', name: 'ULP (Ov)', imgPath: "assets/icons-fields/ulp.png", insikt: false, overlapping: true},
     {id: 'fortnite-13345', name: 'Fortnite', imgPath: "assets/icons-fields/fortnite.png", insikt: false, rank: 1},
     {id: 'fortnite-13346', name: 'Fortnite Training', imgPath: "assets/icons-fields/fortnite-training.png", insikt: false, rank: 1},
-    {id: 'common-99999', name: 'COMMON', imgPath: "assets/icons-fields/generic-1.svg", isSelected: true},
-    {id: 'common-99998', name: 'COMMON #2', imgPath: "assets/icons-fields/generic-2.svg", isSelected: true},
+    {id: 'common-99999', name: '_', imgPath: "assets/icons-fields/generic-1.svg", isSelected: true},
+    {id: 'common-99998', name: '_', imgPath: "assets/icons-fields/generic-2.svg", isSelected: true},
     
     {id: 'seo-87714', name: 'SEO', imgPath: "assets/icons-fields/seo.svg"},
     {id: 'bemms-46654', name: '∴Alpha∴', imgPath: "assets/icons-fields/bemms.svg", specific: false},
