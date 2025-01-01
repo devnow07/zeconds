@@ -39,7 +39,7 @@ let mainData = [
     
     // {id: 'seo-87714', name: 'SEO', imgPath: "assets/icons-fields/seo.svg"},
     // {id: 'bemms-46654', name: '∴Alpha∴', imgPath: "assets/icons-fields/bemms.svg", specific: false},
-    // {id: 'hushall-00012',name: 'Hushåll', imgPath: "assets/icons-fields/hushall.svg", insikt: false},
+    {id: 'hushall-00012',name: 'Hushåll', imgPath: "assets/icons-fields/hushall.svg", insikt: false},
     // {id: 'lithium-19932', name: 'Lithium', imgPath: "assets/icons-fields/lithium.svg", insikt: false, rank: 1},
     // {id: 'lithium_(ov)-29932', name: 'Lithium (Ov)', imgPath: "assets/icons-fields/lithium-(ov).svg", insikt: false, rank: 1, overlapping: true},
 ]
