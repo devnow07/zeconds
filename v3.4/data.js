@@ -6,6 +6,8 @@ let mainData = [
     {id: 'python-22014', name: 'Python', imgPath: "assets/icons-fields/python.svg", isSelected: true},
     {id: 'firebase-09943', name: 'Web Development', imgPath: "assets/icons-fields/firebase.svg", isSelected: true},
     {id: 'algorithms-12345', name: 'Algorithms', imgPath: "assets/icons-fields/algorithms.svg"},
+    {id: 'java-22231', name: 'Java', imgPath: "assets/icons-fields/java.jpg", isSelected: true},
+    {id: 'databases-22231', name: 'Databases', imgPath: "assets/icons-fields/databases.svg", isSelected: true},
     {id: 'probability-20802', name: 'Statistics', imgPath: "assets/icons-fields/statistics.svg"},
     {id: 'backend-54321', name: 'Backend', imgPath: "assets/icons-fields/backend.svg"},
     {id: 'maths-22231', name: 'Mathematics', imgPath: "assets/icons-fields/mathematics.svg", isSelected: true},
@@ -34,8 +36,6 @@ let mainData = [
     {id: 'common-99999', name: '_', imgPath: "assets/icons-fields/generic-1.svg", insikt: false, isSelected: true},
     {id: 'common-99998', name: '_', imgPath: "assets/icons-fields/generic-2.svg", insikt: false, isSelected: true},
     
-    // {id: 'java-22231', name: 'Java', imgPath: "assets/icons-fields/java.jpg", isSelected: true},
-    // {id: 'databases-22231', name: 'Relational Databases', imgPath: "assets/icons-fields/databases.svg", isSelected: true},
     // {id: 'decoded_(ov)-09932', name: 'Decoded (Ov)', imgPath: "assets/icons-fields/decoded_(ov).svg", insikt: false, rank: 1, overlapping: true},
     // {id: 'thefinals-12345', name: 'The Finals', imgPath: "assets/icons-fields/the-finals.jpg", insikt: false, isSelected: true},
     // {id: 'ux_design-11239', name: 'Design', imgPath: "assets/icons-fields/ux_design.svg"},
