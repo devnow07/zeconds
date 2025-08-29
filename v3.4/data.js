@@ -30,6 +30,7 @@ let mainData = [
     // {id: 'free_reading-00112',name: 'Free Reading', imgPath: "assets/icons-fields/free_reading.svg"},
     {id: 'decoded-63244',name: 'Decoded', imgPath: "assets/icons-fields/decoded.svg"},
     {id: 'decoded-63245',name: 'Decoded (Gen.)', imgPath: "assets/icons-fields/decoded_2.svg"},
+    {id: 'decoded-63246',name: 'Decoded (Osman)', imgPath: "assets/icons-fields/decoded_osman.svg"},
     // {id: 'ulp_(ov)-09222', name: 'ULP (Ov)', imgPath: "assets/icons-fields/ulp.png", overlapping: true},
     {id: 'fortnite-13345', name: 'Fortnite', imgPath: "assets/icons-fields/fortnite.png", rank: 1},
     {id: 'fortnite-13346', name: 'Fortnite Training', imgPath: "assets/icons-fields/fortnite-training.png", rank: 1},
@@ -75,3 +76,4 @@ mainData = mainData.map((obj, index) => {
 //      * isSelected
 
 // localStorage.setItem('stopwatch_javascript-23014', JSON.stringify({initialMs: 250000, rank: 1, isSelected: true}))
+
