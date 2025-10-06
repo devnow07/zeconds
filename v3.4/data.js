@@ -2,18 +2,19 @@
 
 let mainData = [
     {id: 'foundations-99001', name: 'Logic (&F)', imgPath: "assets/icons-fields/foundations.svg", isSelected: true},
-    {id: 'discrete_mathematics-99001', name: 'Discrete Mathematics', imgPath: "assets/icons-fields/discrete_mathematics.svg", isSelected: true},
+    // {id: 'discrete_mathematics-99001', name: 'Discrete Mathematics', imgPath: "assets/icons-fields/discrete_mathematics.svg", isSelected: true},
     {id: 'python-22014', name: 'Python', imgPath: "assets/icons-fields/python.svg", isSelected: true},
     {id: 'firebase-09943', name: 'Web Development', imgPath: "assets/icons-fields/firebase.svg", isSelected: true},
-    {id: 'algorithms-12345', name: 'Algorithms', imgPath: "assets/icons-fields/algorithms.svg"},
-    {id: 'java-22231', name: 'Java', imgPath: "assets/icons-fields/java.jpg", isSelected: true},
+    // {id: 'algorithms-12345', name: 'Algorithms', imgPath: "assets/icons-fields/algorithms.svg"},
+    // {id: 'java-22231', name: 'Java', imgPath: "assets/icons-fields/java.jpg", isSelected: true},
     {id: 'databases-22231', name: 'Databases', imgPath: "assets/icons-fields/databases.svg", isSelected: true},
-    {id: 'probability-20802', name: 'Statistics', imgPath: "assets/icons-fields/statistics.svg"},
-    {id: 'backend-54321', name: 'Backend', imgPath: "assets/icons-fields/backend.svg"},
+    // {id: 'probability-20802', name: 'Statistics', imgPath: "assets/icons-fields/statistics.svg"},
+    // {id: 'backend-54321', name: 'Backend', imgPath: "assets/icons-fields/backend.svg"},
     {id: 'maths-22231', name: 'Mathematics', imgPath: "assets/icons-fields/mathematics.svg", isSelected: true},
     {id: 'computing-22231', name: 'Computing', imgPath: "assets/icons-fields/computing.svg", isSelected: true},
     // {id: 'ee-99123',name: 'Electromagentism (&E)', imgPath: "assets/icons-fields/stem.svg", specific: false},
-    {id: 'marketing-88231', name: 'Marketing', imgPath: "assets/icons-fields/marketing.svg", isSelected: true},
+    {id: 'marketing-88231', name: 'Marketing Books', imgPath: "assets/icons-fields/marketing-2.svg", isSelected: true},
+    {id: 'marketing-88232', name: 'Marketing An.', imgPath: "assets/icons-fields/marketing.svg", isSelected: true},
     {id: 'english-87654', name: 'English', imgPath: "assets/icons-fields/languages.svg", specific: false},
     {id: 'omikron-65432', name: 'Omikron', imgPath: "assets/icons-fields/omikron.svg", specific: false},
     {id: 'insikt-54321', name: 'Insikt', imgPath: "assets/icons-fields/insikt.svg", specific: false},
@@ -76,4 +77,5 @@ mainData = mainData.map((obj, index) => {
 //      * isSelected
 
 // localStorage.setItem('stopwatch_javascript-23014', JSON.stringify({initialMs: 250000, rank: 1, isSelected: true}))
+
 
